@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="18" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FunctionalSuite" duration-ms="152444" started-at="2023-02-23T18:33:24Z" finished-at="2023-02-23T18:35:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="152444" started-at="2023-02-23T18:33:24Z" finished-at="2023-02-23T18:35:57Z">
+      <class name="testCases.Tc015_JavaScriptAlertsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc015_JavaScriptAlertsTest@10636b0]" name="setup" is-config="true" duration-ms="4051" started-at="2023-02-23T18:35:29Z" finished-at="2023-02-23T18:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="JavaScriptAlertsTest()[pri:0, instance:testCases.Tc015_JavaScriptAlertsTest@10636b0]" name="JavaScriptAlertsTest" duration-ms="5096" started-at="2023-02-23T18:35:33Z" finished-at="2023-02-23T18:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlertsTest -->
+      </class> <!-- testCases.Tc015_JavaScriptAlertsTest -->
+      <class name="testCases.Tc002_LoginFailure">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc002_LoginFailure@11bf319]" name="setup" is-config="true" duration-ms="2508" started-at="2023-02-23T18:33:29Z" finished-at="2023-02-23T18:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginFailure()[pri:0, instance:testCases.Tc002_LoginFailure@11bf319]" name="LoginFailure" duration-ms="967" started-at="2023-02-23T18:33:32Z" finished-at="2023-02-23T18:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailure -->
+      </class> <!-- testCases.Tc002_LoginFailure -->
+      <class name="testCases.Tc014_MouseHoverTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc014_MouseHoverTest@b107fd]" name="setup" is-config="true" duration-ms="2950" started-at="2023-02-23T18:35:25Z" finished-at="2023-02-23T18:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MouseHoverTest()[pri:0, instance:testCases.Tc014_MouseHoverTest@b107fd]" name="MouseHoverTest" duration-ms="1156" started-at="2023-02-23T18:35:28Z" finished-at="2023-02-23T18:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHoverTest -->
+      </class> <!-- testCases.Tc014_MouseHoverTest -->
+      <class name="testCases.Tc010_FileDownloaderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc010_FileDownloaderTest@1965d37]" name="setup" is-config="true" duration-ms="2882" started-at="2023-02-23T18:35:08Z" finished-at="2023-02-23T18:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FileDownloaderTest()[pri:0, instance:testCases.Tc010_FileDownloaderTest@1965d37]" name="FileDownloaderTest" duration-ms="536" started-at="2023-02-23T18:35:11Z" finished-at="2023-02-23T18:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileDownloaderTest -->
+      </class> <!-- testCases.Tc010_FileDownloaderTest -->
+      <class name="testCases.Tc018_NotificationMessageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc018_NotificationMessageTest@5ed836]" name="setup" is-config="true" duration-ms="3390" started-at="2023-02-23T18:35:51Z" finished-at="2023-02-23T18:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NotificationMessageTest()[pri:0, instance:testCases.Tc018_NotificationMessageTest@5ed836]" name="NotificationMessageTest" duration-ms="2003" started-at="2023-02-23T18:35:55Z" finished-at="2023-02-23T18:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationMessageTest -->
+      </class> <!-- testCases.Tc018_NotificationMessageTest -->
+      <class name="testCases.Tc012_FloatingMenuTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc012_FloatingMenuTest@1c465]" name="setup" is-config="true" duration-ms="2524" started-at="2023-02-23T18:35:17Z" finished-at="2023-02-23T18:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FloatingMenuTest()[pri:0, instance:testCases.Tc012_FloatingMenuTest@1c465]" name="FloatingMenuTest" duration-ms="783" started-at="2023-02-23T18:35:19Z" finished-at="2023-02-23T18:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FloatingMenuTest -->
+      </class> <!-- testCases.Tc012_FloatingMenuTest -->
+      <class name="testCases.Tc008_DynamicControlTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc008_DynamicControlTest@245833]" name="setup" is-config="true" duration-ms="3547" started-at="2023-02-23T18:34:03Z" finished-at="2023-02-23T18:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DynamicControlRemoveAdd()[pri:0, instance:testCases.Tc008_DynamicControlTest@245833]" name="DynamicControlRemoveAdd" duration-ms="16921" started-at="2023-02-23T18:34:06Z" finished-at="2023-02-23T18:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicControlRemoveAdd -->
+      </class> <!-- testCases.Tc008_DynamicControlTest -->
+      <class name="testCases.Tc004_contextMenu">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc004_contextMenu@80cf32]" name="setup" is-config="true" duration-ms="3040" started-at="2023-02-23T18:33:36Z" finished-at="2023-02-23T18:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="contextMenu()[pri:0, instance:testCases.Tc004_contextMenu@80cf32]" name="contextMenu" duration-ms="221" started-at="2023-02-23T18:33:39Z" finished-at="2023-02-23T18:33:39Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=110.0.5481.104): You selected a context menu
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80b9a61507ca5336eb68a24f49224cea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=110.0.5481.104): You selected a context menu
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80b9a61507ca5336eb68a24f49224cea
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at baseClass.baseutils.captureSrceenshot(baseutils.java:50)
+at testCases.Tc004_contextMenu.contextMenu(Tc004_contextMenu.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenu -->
+      </class> <!-- testCases.Tc004_contextMenu -->
+      <class name="testCases.Tc013_iframeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc013_iframeTest@1799640]" name="setup" is-config="true" duration-ms="4168" started-at="2023-02-23T18:35:20Z" finished-at="2023-02-23T18:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="iframeTest()[pri:0, instance:testCases.Tc013_iframeTest@1799640]" name="iframeTest" duration-ms="829" started-at="2023-02-23T18:35:24Z" finished-at="2023-02-23T18:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+      </class> <!-- testCases.Tc013_iframeTest -->
+      <class name="testCases.Tc006_DropDownTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc006_DropDownTest@101b95f]" name="setup" is-config="true" duration-ms="2904" started-at="2023-02-23T18:33:46Z" finished-at="2023-02-23T18:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DropDownTest()[pri:0, instance:testCases.Tc006_DropDownTest@101b95f]" name="DropDownTest" duration-ms="5841" started-at="2023-02-23T18:33:48Z" finished-at="2023-02-23T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownTest -->
+      </class> <!-- testCases.Tc006_DropDownTest -->
+      <class name="testCases.Tc005_dragDropTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc005_dragDropTest@1900ecf]" name="setup" is-config="true" duration-ms="2517" started-at="2023-02-23T18:33:39Z" finished-at="2023-02-23T18:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dragDropTest()[pri:0, instance:testCases.Tc005_dragDropTest@1900ecf]" name="dragDropTest" duration-ms="4112" started-at="2023-02-23T18:33:41Z" finished-at="2023-02-23T18:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragDropTest -->
+      </class> <!-- testCases.Tc005_dragDropTest -->
+      <class name="testCases.Tc001_LoginSuccess">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc001_LoginSuccess@1695b06]" name="setup" is-config="true" duration-ms="4026" started-at="2023-02-23T18:33:24Z" finished-at="2023-02-23T18:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginSuccess()[pri:0, instance:testCases.Tc001_LoginSuccess@1695b06]" name="LoginSuccess" duration-ms="933" started-at="2023-02-23T18:33:28Z" finished-at="2023-02-23T18:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccess -->
+      </class> <!-- testCases.Tc001_LoginSuccess -->
+      <class name="testCases.Tc016_JavaSriptErrorTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc016_JavaSriptErrorTest@1e8f619]" name="setup" is-config="true" duration-ms="5303" started-at="2023-02-23T18:35:38Z" finished-at="2023-02-23T18:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="JavaSriptErrorTest()[pri:0, instance:testCases.Tc016_JavaSriptErrorTest@1e8f619]" name="JavaSriptErrorTest" duration-ms="130" started-at="2023-02-23T18:35:44Z" finished-at="2023-02-23T18:35:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Cannot read property 'xyz' of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Cannot read property 'xyz' of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaSriptErrorTest -->
+      </class> <!-- testCases.Tc016_JavaSriptErrorTest -->
+      <class name="testCases.Tc003_Checkboxes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc003_Checkboxes@f53b8a]" name="setup" is-config="true" duration-ms="2373" started-at="2023-02-23T18:33:33Z" finished-at="2023-02-23T18:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkbox()[pri:0, instance:testCases.Tc003_Checkboxes@f53b8a]" name="checkbox" duration-ms="498" started-at="2023-02-23T18:33:35Z" finished-at="2023-02-23T18:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+      </class> <!-- testCases.Tc003_Checkboxes -->
+      <class name="testCases.Tc009_DynamicLoadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc009_DynamicLoadTest@13fdbce]" name="setup" is-config="true" duration-ms="3066" started-at="2023-02-23T18:34:23Z" finished-at="2023-02-23T18:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="DynamicLoadTest()[pri:0, instance:testCases.Tc009_DynamicLoadTest@13fdbce]" name="DynamicLoadTest" duration-ms="41749" started-at="2023-02-23T18:34:26Z" finished-at="2023-02-23T18:35:08Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='finish']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='finish']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at baseClass.baseutils.waitForElement(baseutils.java:159)
+at pageObjects.DynamicLoadPage.dynamicLoad(DynamicLoadPage.java:34)
+at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='finish']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7571dcf8f5e905ba717ace1e62eabdb0
+*** Element info: {Using=xpath, value=//div[@id='finish']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicLoadTest -->
+      </class> <!-- testCases.Tc009_DynamicLoadTest -->
+      <class name="testCases.Tc007_DynamicContentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc007_DynamicContentTest@7f65e]" name="setup" is-config="true" duration-ms="4988" started-at="2023-02-23T18:33:54Z" finished-at="2023-02-23T18:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="DynamicContentTest1()[pri:0, instance:testCases.Tc007_DynamicContentTest@7f65e]" name="DynamicContentTest1" duration-ms="3680" started-at="2023-02-23T18:33:59Z" finished-at="2023-02-23T18:34:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Content matches before and after refresh expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicContentTest1 -->
+      </class> <!-- testCases.Tc007_DynamicContentTest -->
+      <class name="testCases.Tc017_windowsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc017_windowsTest@b4bc72]" name="setup" is-config="true" duration-ms="6590" started-at="2023-02-23T18:35:44Z" finished-at="2023-02-23T18:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="windowsTest()[pri:0, instance:testCases.Tc017_windowsTest@b4bc72]" name="windowsTest" duration-ms="697" started-at="2023-02-23T18:35:50Z" finished-at="2023-02-23T18:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsTest -->
+      </class> <!-- testCases.Tc017_windowsTest -->
+      <class name="testCases.Tc011_FileUploadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc011_FileUploadTest@5ceedd]" name="setup" is-config="true" duration-ms="4579" started-at="2023-02-23T18:35:12Z" finished-at="2023-02-23T18:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FileUploadTest()[pri:0, instance:testCases.Tc011_FileUploadTest@5ceedd]" name="FileUploadTest" duration-ms="694" started-at="2023-02-23T18:35:16Z" finished-at="2023-02-23T18:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUploadTest -->
+      </class> <!-- testCases.Tc011_FileUploadTest -->
+    </test> <!-- Test -->
+  </suite> <!-- FunctionalSuite -->
+</testng-results>

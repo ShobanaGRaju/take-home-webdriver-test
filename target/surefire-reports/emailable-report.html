@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">FunctionalSuite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">14</td><td class="num">0</td><td class="num attn">4</td><td class="num">152,444</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FunctionalSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.Tc004_contextMenu</td><td><a href="#m0">contextMenu</a></td><td rowspan="1">1677177219161</td><td rowspan="1">221</td></tr><tr class="failedodd"><td rowspan="1">testCases.Tc007_DynamicContentTest</td><td><a href="#m1">DynamicContentTest1</a></td><td rowspan="1">1677177239754</td><td rowspan="1">3680</td></tr><tr class="failedeven"><td rowspan="1">testCases.Tc009_DynamicLoadTest</td><td><a href="#m2">DynamicLoadTest</a></td><td rowspan="1">1677177266969</td><td rowspan="1">41749</td></tr><tr class="failedodd"><td rowspan="1">testCases.Tc016_JavaSriptErrorTest</td><td><a href="#m3">JavaSriptErrorTest</a></td><td rowspan="1">1677177344276</td><td rowspan="1">130</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.Tc001_LoginSuccess</td><td><a href="#m4">LoginSuccess</a></td><td rowspan="1">1677177208833</td><td rowspan="1">933</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc002_LoginFailure</td><td><a href="#m5">LoginFailure</a></td><td rowspan="1">1677177212282</td><td rowspan="1">967</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc003_Checkboxes</td><td><a href="#m6">checkbox</a></td><td rowspan="1">1677177215622</td><td rowspan="1">498</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc005_dragDropTest</td><td><a href="#m7">dragDropTest</a></td><td rowspan="1">1677177221909</td><td rowspan="1">4112</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc006_DropDownTest</td><td><a href="#m8">DropDownTest</a></td><td rowspan="1">1677177228925</td><td rowspan="1">5841</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc008_DynamicControlTest</td><td><a href="#m9">DynamicControlRemoveAdd</a></td><td rowspan="1">1677177246982</td><td rowspan="1">16921</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc010_FileDownloaderTest</td><td><a href="#m10">FileDownloaderTest</a></td><td rowspan="1">1677177311600</td><td rowspan="1">536</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc011_FileUploadTest</td><td><a href="#m11">FileUploadTest</a></td><td rowspan="1">1677177316716</td><td rowspan="1">694</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc012_FloatingMenuTest</td><td><a href="#m12">FloatingMenuTest</a></td><td rowspan="1">1677177319936</td><td rowspan="1">783</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc013_iframeTest</td><td><a href="#m13">iframeTest</a></td><td rowspan="1">1677177324888</td><td rowspan="1">829</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc014_MouseHoverTest</td><td><a href="#m14">MouseHoverTest</a></td><td rowspan="1">1677177328668</td><td rowspan="1">1156</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc015_JavaScriptAlertsTest</td><td><a href="#m15">JavaScriptAlertsTest</a></td><td rowspan="1">1677177333875</td><td rowspan="1">5096</td></tr><tr class="passedeven"><td rowspan="1">testCases.Tc017_windowsTest</td><td><a href="#m16">windowsTest</a></td><td rowspan="1">1677177350996</td><td rowspan="1">697</td></tr><tr class="passedodd"><td rowspan="1">testCases.Tc018_NotificationMessageTest</td><td><a href="#m17">NotificationMessageTest</a></td><td rowspan="1">1677177355090</td><td rowspan="1">2003</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.Tc004_contextMenu#contextMenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=110.0.5481.104): You selected a context menu
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80b9a61507ca5336eb68a24f49224cea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at baseClass.baseutils.captureSrceenshot(baseutils.java:50)
+	at testCases.Tc004_contextMenu.contextMenu(Tc004_contextMenu.java:33)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.Tc007_DynamicContentTest#DynamicContentTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
+	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.Tc009_DynamicLoadTest#DynamicLoadTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@id=&apos;finish&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at baseClass.baseutils.waitForElement(baseutils.java:159)
+	at pageObjects.DynamicLoadPage.dynamicLoad(DynamicLoadPage.java:34)
+	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;finish&apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7571dcf8f5e905ba717ace1e62eabdb0
+*** Element info: {Using=xpath, value=//div[@id=&apos;finish&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 32 more
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.Tc016_JavaSriptErrorTest#JavaSriptErrorTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Cannot read property &apos;xyz&apos; of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
+	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.Tc001_LoginSuccess#LoginSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.Tc002_LoginFailure#LoginFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.Tc003_Checkboxes#checkbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.Tc005_dragDropTest#dragDropTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.Tc006_DropDownTest#DropDownTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.Tc008_DynamicControlTest#DynamicControlRemoveAdd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.Tc010_FileDownloaderTest#FileDownloaderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.Tc011_FileUploadTest#FileUploadTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.Tc012_FloatingMenuTest#FloatingMenuTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.Tc013_iframeTest#iframeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.Tc014_MouseHoverTest#MouseHoverTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.Tc015_JavaScriptAlertsTest#JavaScriptAlertsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.Tc017_windowsTest#windowsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testCases.Tc018_NotificationMessageTest#NotificationMessageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

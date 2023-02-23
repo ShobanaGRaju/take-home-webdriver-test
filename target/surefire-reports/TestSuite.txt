@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 154.929 s <<< FAILURE! - in TestSuite
+testCases.Tc004_contextMenu.contextMenu  Time elapsed: 0.222 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=110.0.5481.104): You selected a context menu
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80b9a61507ca5336eb68a24f49224cea
+	at testCases.Tc004_contextMenu.contextMenu(Tc004_contextMenu.java:33)
+
+testCases.Tc007_DynamicContentTest.DynamicContentTest1  Time elapsed: 3.674 s  <<< FAILURE!
+java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
+	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
+
+testCases.Tc009_DynamicLoadTest.DynamicLoadTest  Time elapsed: 41.729 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='finish']' (tried for 30 second(s) with 500 milliseconds interval)
+	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='finish']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7571dcf8f5e905ba717ace1e62eabdb0
+*** Element info: {Using=xpath, value=//div[@id='finish']}
+	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
+
+testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest  Time elapsed: 0.073 s  <<< FAILURE!
+java.lang.AssertionError: expected [Cannot read property 'xyz' of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
+	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
+
